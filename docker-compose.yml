@@ -1,0 +1,17 @@
+version: '3'
+services:
+  mysql:
+    image: mariadb:10.2.16
+    container_name: mysql
+    restart: always
+    env_file: .env
+    volumes:
+      - ./mysql:/var/lib/mysql
+  adminer:
+    image: adminer
+    container_name: adminer
+    privileged: true
+    restart: always
+    ports:
+      - "3333:8080"
+    env_file: .env
