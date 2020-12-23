@@ -1,10 +1,4 @@
 {
-  "name": "nodejs-crud",
-  "version": "0.0.0",
-  "private": true,
-  "scripts": {
-    "start": "nodemon ./bin/www"
-  },
   "dependencies": {
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
@@ -17,5 +11,12 @@
     "morgan": "~1.9.1",
     "mysql": "^2.18.1",
     "nodemon": "^2.0.6"
-  }
+  },
+  "name": "nodejs-crud",
+  "private": true,
+  "scripts": {
+    "push": "git add . && git commit -m \"udpate\" && git push",
+    "start": "nodemon ./bin/www"
+  },
+  "version": "0.0.0"
 }
