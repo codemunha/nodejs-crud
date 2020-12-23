@@ -2,6 +2,9 @@
   "[typescript]": {
     "editor.formatOnSave": true
   },
+  "css.styleSheets": [
+    "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+  ],
   "editor.codeActionsOnSave": {
     "source.fixAll": true,
     "source.fixAll.eslint": true
@@ -10,8 +13,13 @@
     "strings": true
   },
   "editor.tabSize": 2,
+  "emmet.includeLanguages": {
+    "ejs": "html"
+  },
   "eslint.nodePath": "/node_modules",
-
+  "files.associations": {
+    ".env.*": "env"
+  },
   "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
   "javascript.validate.enable": true,
   "vetur.format.defaultFormatter.html": "js-beautify-html",
@@ -20,12 +28,5 @@
   "vetur.validation.template": true,
   "vueStyle.formatOnSave": true,
   "vueStyle.ignoreFilesOnSave": [],
-  "vueStyle.preset": {},
-  "files.associations": {
-    ".env.*": "env"
-  },
-  "css.styleSheets": [
-    // "https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css",
-    "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css",
-  ]
+  "vueStyle.preset": {}
 }

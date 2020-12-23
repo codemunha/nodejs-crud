@@ -1,5 +1,6 @@
 .DS_Store
 node_modules
+/node_modules
 /dist
 
 /tests/e2e/videos/
@@ -34,3 +35,4 @@ yarn.lock*
 /pvt*
 /portal*
 /mysql*
+/yarn.lock

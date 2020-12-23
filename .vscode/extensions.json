@@ -1,5 +1,6 @@
 {
   "recommendations": [
+    "ecmel.vscode-html-css",
     "amoosbr.markdown-nomnoml",
     "christian-kohler.npm-intellisense",
     "coenraads.bracket-pair-colorizer",
