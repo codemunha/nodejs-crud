@@ -1,0 +1,7 @@
+create table books(
+  id int (11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  name varchar(100) NOT NULL,
+  author varchar(100) NOT NULL,
+  create_at timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  update_at timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
